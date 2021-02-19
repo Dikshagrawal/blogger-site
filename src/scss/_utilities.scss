@@ -1,0 +1,171 @@
+.text-left {
+  text-align: left !important;
+  text-align: -webkit-left !important;
+}
+
+.text-right {
+  text-align: right !important;
+  text-align: -webkit-right !important;
+}
+
+.text-center {
+  text-align: center !important;
+  text-align: -webkit-center !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-none {
+  float: none !important;
+  clear: both;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.m10 {
+  margin: 10px !important;
+}
+
+.mr2 {
+  margin-right: 2px !important;
+}
+
+.mr5 {
+  margin-right: 5px !important;
+}
+
+.mr10 {
+  margin-right: 10px !important;
+}
+
+.mr15 {
+  margin-right: 15px !important;
+}
+
+.m20 {
+  margin: 20px !important;
+}
+
+.mr20 {
+  margin-right: 20px !important;
+}
+
+.mr30 {
+  margin-right: 30px !important;
+}
+
+.ml14 {
+  margin-left: 14px !important;
+}
+
+.ml10 {
+  margin-left: 10px !important;
+}
+
+.ml15 {
+  margin-left: 15px !important;
+}
+
+.ml20 {
+  margin-left: 20px !important;
+}
+
+.ml30 {
+  margin-left: 30px !important;
+}
+
+.ml36 {
+  margin-left: 36px !important;
+}
+
+.ml40 {
+  margin-left: 40px !important;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+.mb20 {
+  margin-bottom: 20px !important;
+}
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+.mt10 {
+  margin-top: 10px !important;
+}
+
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.mt20 {
+  margin-top: 20px !important;
+}
+
+.mt25 {
+  margin-top: 25px !important;
+}
+
+.mt30 {
+  margin-top: 30px !important;
+}
+
+.mt40 {
+  margin-top: 40px !important;
+}
+
+.mauto {
+  margin: auto;
+}
+
+.no-pad-left {
+  padding-left: 0 !important;
+}
+
+.no-pad-right {
+  padding-right: 0 !important;
+}
+
+.hidden {
+  visibility: hidden !important;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.no-pointer {
+  cursor: default !important;
+}

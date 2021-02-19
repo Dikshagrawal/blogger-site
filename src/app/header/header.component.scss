@@ -1,0 +1,55 @@
+.user-icon {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  //margin: 0px 10px;
+  margin-left: 30px;
+
+  img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+  }
+
+}
+
+.header-toolbar {
+  height: 70px;
+  padding: 15px 30px;
+}
+
+.header-logo {
+  width: 80px;
+}
+
+.logo-title {
+  font-weight: bold !important;
+  font-family: Roboto;
+  margin-right: 10px;
+  padding: 7px 0 5px 0;
+  color: #1055B6;
+}
+  
+.header-container {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+  z-index: 3;
+  position: sticky;
+}
+  
+.header-spacer {
+  flex: 1 1 auto;
+}
+  
+.header-right-section {
+  float: right
+}
+  
+.header-icon {
+  margin-left: 10px;
+
+  img {
+    cursor: pointer;
+    width: 20px;
+  }
+}

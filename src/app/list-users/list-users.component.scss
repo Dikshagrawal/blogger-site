@@ -1,0 +1,29 @@
+
+.app-container {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 50px;
+  background: white;
+}
+
+.body-container {
+  background-color: #EBEEF4;
+  padding: 40px 100px 2em 100px;
+  min-height: calc(100% - 40px);
+
+  .user-list {
+    padding: 20px;
+    padding-bottom: 0;
+    border-bottom: 1px solid #EBEEF4;
+
+    .user-card{
+      background-color: white;
+      padding: 20px;
+      display: flex;
+      font-size: 18px;
+      justify-content: space-between;
+    }
+  }
+}
