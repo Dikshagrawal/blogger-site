@@ -12,13 +12,15 @@ import {ApiService} from './services/api.service';
 import { AvatarModule } from 'ngx-avatar';
 import { ListPostsComponent } from './list-posts/list-posts.component';
 import { ListUsersComponent } from './list-users/list-users.component';
+import { ProfileDetailComponent } from './profile-detail/profile-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ListPostsComponent,
-    ListUsersComponent
+    ListUsersComponent,
+    ProfileDetailComponent
   ],
   imports: [
     BrowserModule,

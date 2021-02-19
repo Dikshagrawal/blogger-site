@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from '../services/api.service';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-list-posts',
@@ -7,9 +9,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListPostsComponent implements OnInit {
 
-  constructor() { }
+  posts = [];
+  userId;
+
+  constructor(
+    private _apiService: ApiService,
+    public activatedRoute: ActivatedRoute
+    ) { 
+    this.userId = this.activatedRoute.snapshot.params.userId;
+  }
+
 
   ngOnInit(): void {
+    this.getPosts();
+  }
+
+  getPosts() {
+    this._apiService.getPosts(this.userId).subscribe(
+      posts => {
+        this.posts = posts;
+      }, (err: any) => {
+        console.log(err);
+      });
   }
 
 }

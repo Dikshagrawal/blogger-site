@@ -1,1 +1,20 @@
-<p>list-posts works!</p>
+<div class="body-container">
+  <div class="app-container">
+    <h1 class="detail-title">
+      Posts List : 
+    </h1>
+    <div *ngFor="let post of posts" class="user-list">
+      <div class="user-card">
+        <div class="user-name">
+          <span>{{post.title}}</span>
+        </div>
+        <div class="company-name">
+          <span>{{post.body}}</span>
+        </div>
+        <div class="view-posts-link">
+          <span>View Post ></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

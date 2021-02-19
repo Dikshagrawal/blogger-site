@@ -14,4 +14,8 @@ export class ApiService {
     getUsers(): Observable<any> {
       return this.httpClient.get('https://jsonplaceholder.typicode.com/users/')
     }
+
+    getPosts(userId): Observable<any> {
+      return this.httpClient.get(`https://jsonplaceholder.typicode.com/posts/?userId=${userId}`)
+    }
 }
